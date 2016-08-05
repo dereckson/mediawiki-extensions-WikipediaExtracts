@@ -4,7 +4,7 @@
 	"author": "[http://mediawiki.org/wiki/User:Felipe_Schenone Felipe Schenone]",
 	"url": "https://www.mediawiki.org/wiki/Extension:WikipediaExtracts",
 	"descriptionmsg": "wikipediaextracts-desc",
-	"type": "tagextension",
+	"type": "parserhook",
 	"MessagesDirs": {
 		"WikipediaExtracts": [
 			"i18n"
