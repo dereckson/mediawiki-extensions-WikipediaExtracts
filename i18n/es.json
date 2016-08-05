@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Felipe Schenone"
+		]
+	},
+	"wikipediaextracts-desc": "Permite insertar contenido extraido directamente de Wikipedia.",
+	"wikipediaextracts-404": "La página '$1' no fue encontrada en Wikipedia",
+	"wikipediaextracts-extracted": "&mdash;Extraído de Wikipedia"
+}
