@@ -10,7 +10,7 @@ class WikipediaExtracts {
 
 	static function onHook( $input, array $args, Parser $parser, PPFrame $frame ) {
 		// Defaults
-		$title = $parser->getTitle()->getText();
+		$title = $parser->getTitle()->getRootText();
 		$language = $parser->getTargetLanguage()->getCode();
 		$chars = null;
 		$sentences = null;
@@ -58,7 +58,7 @@ class WikipediaExtracts {
 
 	static function onFunctionHook( $parser, $input = null ) {
 		// Defaults
-		$title = $parser->getTitle()->getText();
+		$title = $parser->getTitle()->getRootText();
 		$language = $parser->getTargetLanguage()->getCode();
 		$chars = null;
 		$sentences = null;
@@ -70,7 +70,7 @@ class WikipediaExtracts {
 		$variant = null;
 
 		// Override with user input
-		$options = WikipediaExtracts::extractOptions( array_slice( func_get_args(), 1 ) );
+		$options = WikipediaExtracts::extractOptions( array_slice( func_get_args(), 2 ) );
 		extract( $options );
 		if ( $input ) {
 			$title = $parser->recursiveTagParse( $input );
