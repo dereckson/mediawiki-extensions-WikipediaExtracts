@@ -9,7 +9,7 @@ class WikipediaExtracts {
 	}
 
 	static function onHook( $input, array $args, Parser $parser, PPFrame $frame ) {
-		// Defaults
+		// Set the defaults
 		$title = $parser->getTitle()->getRootText();
 		$language = $parser->getTargetLanguage()->getCode();
 		$chars = null;
@@ -24,7 +24,13 @@ class WikipediaExtracts {
 		// Override with user input
 		extract( $args );
 		if ( $input ) {
-			$title = $parser->recursiveTagParse( $input );
+			if ( filter_var( $input, FILTER_VALIDATE_URL ) ) {
+				$path = parse_url( $input, PHP_URL_PATH );
+				$PATH = explode( '/', $path );
+				$title = $PATH[2];
+			} else {
+				$title = $input;
+			}
 		}
 
 		// Query the Wikipedia API
@@ -57,7 +63,7 @@ class WikipediaExtracts {
 	}
 
 	static function onFunctionHook( $parser, $input = null ) {
-		// Defaults
+		// Set the defaults
 		$title = $parser->getTitle()->getRootText();
 		$language = $parser->getTargetLanguage()->getCode();
 		$chars = null;
@@ -73,7 +79,13 @@ class WikipediaExtracts {
 		$options = WikipediaExtracts::extractOptions( array_slice( func_get_args(), 2 ) );
 		extract( $options );
 		if ( $input ) {
-			$title = $parser->recursiveTagParse( $input );
+			if ( filter_var( $input, FILTER_VALIDATE_URL ) ) {
+				$path = parse_url( $input, PHP_URL_PATH );
+				$PATH = explode( '/', $path );
+				$title = $PATH[2];
+			} else {
+				$title = $input;
+			}
 		}
 
 		// Query the Wikipedia API
