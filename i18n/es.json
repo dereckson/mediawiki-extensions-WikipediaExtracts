@@ -6,5 +6,5 @@
 	},
 	"wikipediaextracts-desc": "Permite insertar contenido extraido directamente de Wikipedia.",
 	"wikipediaextracts-404": "La página '$1' no fue encontrada en la Wikipedia en español",
-	"wikipediaextracts-extracted": "&mdash;Extraído de Wikipedia"
+	"wikipediaextracts-credits": "<small>Extraído de [$1 Wikipedia]</small>"
 }

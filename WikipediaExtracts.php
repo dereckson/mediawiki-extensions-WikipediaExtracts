@@ -113,6 +113,8 @@ class WikipediaExtracts {
 				return '<span class="error">' . wfMessage( 'wikipediaextracts-404', $title ) . '</span>';
 			}
 			$extract = $value->extract;
+			$url = 'https://' . $language . '.wikipedia.org/wiki/' . urlencode( $title );
+			$extract .= wfMessage( 'wikipediaextracts-credits', $url )->plain();
 			return $extract;
 		}
 	}
