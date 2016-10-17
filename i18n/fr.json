@@ -7,5 +7,6 @@
 	},
 	"wikipediaextracts-desc": "Permet d'insérer du contenu extrait directement de Wikipédia Français.",
 	"wikipediaextracts-404": "La page '$1' n'a pas été trouvée sur Wikipédia",
+	"wikipediaextracts-invalid-language": "The language code '$1' is invalid",
 	"wikipediaextracts-credits": "<small>Extrait de [$1 Wikipédia]</small>"
 }

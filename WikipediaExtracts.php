@@ -25,18 +25,29 @@ class WikipediaExtracts {
 		extract( $args );
 		if ( $input ) {
 			if ( filter_var( $input, FILTER_VALIDATE_URL ) ) {
+				// Extract the title
 				$path = parse_url( $input, PHP_URL_PATH );
 				$PATH = explode( '/', $path );
 				$title = $PATH[2];
+
+				// Extract the language
+				$host = parse_url( $input, PHP_URL_HOST );
+				$HOST = explode( '.', $host );
+				$language = $HOST[0];
 			} else {
 				$title = $input;
 			}
 		}
 
+		// Validate language code
+		if ( !Language::isValidCode( $language ) ) {
+			return '<span class="error">' . wfMessage( 'wikipediaextracts-invalid-language', $language ) . '</span>';
+		}
+
 		// Query the Wikipedia API
 		$data = array(
 			'action' => 'query',
-			'titles' => $title,
+			'titles' => urldecode( $title ),
 			'prop' => 'extracts',
 			'exchars' => $chars,
 			'exsentences' => $sentences,
@@ -58,6 +69,8 @@ class WikipediaExtracts {
 				return '<span class="error">' . wfMessage( 'wikipediaextracts-404', $title ) . '</span>';
 			}
 			$extract = $value->extract;
+			$url = 'https://' . $language . '.wikipedia.org/wiki/' . urlencode( $title );
+			$extract .= wfMessage( 'wikipediaextracts-credits', $url )->parse();
 			return $extract;
 		}
 	}
@@ -80,18 +93,29 @@ class WikipediaExtracts {
 		extract( $options );
 		if ( $input ) {
 			if ( filter_var( $input, FILTER_VALIDATE_URL ) ) {
+				// Extract the title
 				$path = parse_url( $input, PHP_URL_PATH );
 				$PATH = explode( '/', $path );
 				$title = $PATH[2];
+
+				// Extract the language
+				$host = parse_url( $input, PHP_URL_HOST );
+				$HOST = explode( '.', $host );
+				$language = $HOST[0];
 			} else {
 				$title = $input;
 			}
 		}
 
+		// Validate language code
+		if ( !Language::isValidCode( $language ) ) {
+			return '<span class="error">' . wfMessage( 'wikipediaextracts-invalid-language', $language ) . '</span>';
+		}
+
 		// Query the Wikipedia API
 		$data = array(
 			'action' => 'query',
-			'titles' => $title,
+			'titles' => urldecode( $title ),
 			'prop' => 'extracts',
 			'exchars' => $chars,
 			'exsentences' => $sentences,
