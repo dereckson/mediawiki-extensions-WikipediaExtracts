@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Metalhead64"
+		]
+	},
+	"wikipediaextracts-desc": "Ermöglicht das Einfügen von Inhaltsauszügen direkt aus der Wikipedia",
+	"wikipediaextracts-404": "Die Seite „$1“ wurde in der englischsprachigen Wikipedia nicht gefunden",
+	"wikipediaextracts-invalid-language": "Der Sprachcode „$1“ ist ungültig",
+	"wikipediaextracts-credits": "<small>Auszug aus [$1 Wikipedia]</small>"
+}

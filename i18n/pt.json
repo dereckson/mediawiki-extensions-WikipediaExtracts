@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Vitorvicentevalente"
+		]
+	},
+	"wikipediaextracts-desc": "Permite inserir conteúdo extraído diretamente da Wikipédia.",
+	"wikipediaextracts-404": "A página '$1' não foi encontrada na Wikipédia",
+	"wikipediaextracts-credits": "<small>Extraído da [$1 Wikipédia]</small>"
+}
