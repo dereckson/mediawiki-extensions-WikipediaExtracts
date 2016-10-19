@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06"
+		]
+	},
+	"wikipediaextracts-desc": "Овозможува вметнување на содржини извлечени право од Википедија.",
+	"wikipediaextracts-404": "Не ја најдов страницата „$1“ на англиската Википедија",
+	"wikipediaextracts-invalid-language": "Јазичниот код „$13 е неважечки",
+	"wikipediaextracts-credits": "<small>Извлечено од [$1 Википедија]</small>"
+}

@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16"
+		]
+	},
+	"wikipediaextracts-desc": "Consente di inserire contenuti estratti direttamente da Wikipedia.",
+	"wikipediaextracts-404": "La pagina '$1' non è stata trovata nella Wikipedia in lingua inglese",
+	"wikipediaextracts-invalid-language": "Il codice di lingua '$1' non è valido",
+	"wikipediaextracts-credits": "<small>Estratto da [$1 Wikipedia]</small>"
+}
