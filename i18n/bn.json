@@ -5,7 +5,7 @@
 		]
 	},
 	"wikipediaextracts-desc": "উইকিপিডিয়া থেকে সরাসরি নিষ্কাশিত বিষয়বস্তু সন্নিবেশ করা সক্ষম করে।",
-	"wikipediaextracts-404": "'$1' পাতাটি ইংরেজি উইকিপিডিয়ায় পাওয়া যায়নি",
+	"wikipediaextracts-404": "'$1' পাতাটি উইকিপিডিয়ায় পাওয়া যায়নি",
 	"wikipediaextracts-invalid-language": "ভাষা কোড '$1' অবৈধ",
 	"wikipediaextracts-credits": "<small>[$1 উইকিপিডিয়া] থেকে নিষ্কাশিত</small>"
 }

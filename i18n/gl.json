@@ -5,7 +5,7 @@
 		]
 	},
 	"wikipediaextracts-desc": "Permite inserir contido extraído directamente de Wikipedia.",
-	"wikipediaextracts-404": "A páxina '$1' non foi atopada na Wikipedia en inglés",
+	"wikipediaextracts-404": "A páxina '$1' non foi atopada na Wikipedia",
 	"wikipediaextracts-invalid-language": "O código de lingua '$1' non é válido",
 	"wikipediaextracts-credits": "<small>Extraído de [$1 Wikipedia]</small>"
 }
