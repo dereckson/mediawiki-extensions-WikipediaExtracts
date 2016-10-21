@@ -1,11 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Irus"
+			"Irus",
+			"Okras"
 		]
 	},
 	"wikipediaextracts-desc": "Позволяет вставить содержимое извлекается непосредственно из Википедии.",
-	"wikipediaextracts-404": "Страница '$1' не найден в английской Википедии",
+	"wikipediaextracts-404": "Страница '$1' не найдена в Википедии",
 	"wikipediaextracts-invalid-language": "Код языка «$1» не является допустимым",
 	"wikipediaextracts-credits": "<small>Извлеченные из [$1 Википедия]</small>"
 }

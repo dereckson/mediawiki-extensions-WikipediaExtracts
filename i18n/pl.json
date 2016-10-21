@@ -4,5 +4,7 @@
 			"Chrumps"
 		]
 	},
-	"wikipediaextracts-invalid-language": "Kod języka '$1' jest nieprawidłowy"
+	"wikipediaextracts-404": "Strona '$1' nie została znaleziona w Wikipedii",
+	"wikipediaextracts-invalid-language": "Kod języka '$1' jest nieprawidłowy",
+	"wikipediaextracts-credits": "<small>Fragment z [$1 Wikipedii]</small>"
 }
