@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Robby"
+		]
+	},
+	"wikipediaextracts-desc": "Erméiglecht et fir Inhalt, deen direkt aus der Wikipedia erausgeholl gouf, dranzesetzen.",
+	"wikipediaextracts-404": "D'Säit '$1' gouf op Wikipedia net fonnt",
+	"wikipediaextracts-invalid-language": "De Sproochecode '$1' ass net valabel.",
+	"wikipediaextracts-credits": "<small>Extrait aus der [$1 Wikipedia]</small>"
+}

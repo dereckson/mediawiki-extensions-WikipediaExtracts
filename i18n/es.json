@@ -1,11 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Felipe Schenone"
+			"Felipe Schenone",
+			"Fitoschido"
 		]
 	},
-	"wikipediaextracts-desc": "Permite insertar contenido extraido directamente de Wikipedia.",
-	"wikipediaextracts-404": "La página '$1' no fue encontrada en Wikipedia",
-	"wikipediaextracts-invalid-language": "El código de lenguaje '$1' es inválido",
+	"wikipediaextracts-desc": "Permite insertar contenido extraído directamente de Wikipedia.",
+	"wikipediaextracts-404": "No se encontró la página «$1» en Wikipedia",
+	"wikipediaextracts-invalid-language": "El código de idioma «$1» no es válido",
 	"wikipediaextracts-credits": "<small>Extraído de [$1 Wikipedia]</small>"
 }
