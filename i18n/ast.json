@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Xuacu"
+		]
+	},
+	"wikipediaextracts-desc": "Permite insertar conteníu estrayíu direutamente de Wikipedia.",
+	"wikipediaextracts-404": "Nun s'atopó la páxina «$1» en Wikipedia",
+	"wikipediaextracts-invalid-language": "El códigu d'idioma «$1» nun ye válidu",
+	"wikipediaextracts-credits": "<small>Estrayíu de [$1 Wikipedia]</small>"
+}
