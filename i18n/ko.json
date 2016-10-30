@@ -5,5 +5,6 @@
 		]
 	},
 	"wikipediaextracts-404": "'$1' 페이지는 위키백과에서 찾을 수 없습니다",
-	"wikipediaextracts-invalid-language": "'$1' 언어 코드는 올바르지 않습니다"
+	"wikipediaextracts-invalid-language": "'$1' 언어 코드는 올바르지 않습니다",
+	"wikipediaextracts-credits": "<small>[$1 위키백과]에서 발췌</small>"
 }
