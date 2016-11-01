@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eitvys200"
+		]
+	},
+	"wikipediaextracts-desc": "Leidžia įterpti turinį, gauta tiesiai iš Vikipedijos.",
+	"wikipediaextracts-404": "Puslapis '$1' nebuvo rastas Vikipedijoje",
+	"wikipediaextracts-invalid-language": "Kalbos kodas '$1' negalimas",
+	"wikipediaextracts-credits": "<small>Gauta iš [$1 Vikipedijos]</small>"
+}
